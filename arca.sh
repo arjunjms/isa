@@ -4,74 +4,74 @@ clear
 mkdir -p /root/folder
 
 echo -e "${GREEN}Harap Bersabar Tuan${NC}"
-wget -q -O /root/status "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/statushariini"
+wget -q -O /root/status "https://raw.githubusercontent.com/arjunjms/isa/momok/statushariini"
 
-wget -q -O /etc/version "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/versiupdate" && chmod +x /etc/version
+wget -q -O /etc/version "https://raw.githubusercontent.com/arjunjms/isa/momok/versiupdate" && chmod +x /etc/version
 
-#wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu.sh"
-wget -q -O /usr/bin/menu1 "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu1.sh"
-wget -q -O /usr/bin/delv2ray "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/delv2ray.sh"
+#wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu.sh"
+wget -q -O /usr/bin/menu1 "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu1.sh"
+wget -q -O /usr/bin/delv2ray "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/delv2ray.sh"
 #wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-ws.sh"
 #wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-ssws.sh"
 #wget -q -O /usr/bin/add-socks "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-socks.sh"
 #wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-vless.sh"
 #wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-tr.sh"
 #wget -q -O /usr/bin/add-trgo "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-trgo.sh"
-wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/autoreboot.sh"
+wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/autoreboot.sh"
 wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/restart.sh"
-wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/tendang.sh"
+wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/arjunjms/isa/momok/limit/tendang.sh"
 wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/clearlog.sh"
-wget -q -O /usr/bin/running "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/running.sh"
+wget -q -O /usr/bin/running "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/running.sh"
 wget -q -O /usr/bin/cek-trafik "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/cek-trafik.sh"
 wget -q -O /usr/bin/cek-speed "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/speedtes_cli.py"
 wget -q -O /usr/bin/cek-bandwidth "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/cek-bandwidth.sh"
 wget -q -O /usr/bin/cek-ram "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/ram.sh"
 wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/limit-speed.sh"
-wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-bot.sh"
-wget -q -O /usr/bin/stopbot "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/stopbot.sh"
-wget -q -O /usr/bin/menu-theme "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Themes/thema.sh"
+wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-bot.sh"
+wget -q -O /usr/bin/stopbot "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/stopbot.sh"
+wget -q -O /usr/bin/menu-theme "https://raw.githubusercontent.com/arjunjms/isa/momok/Themes/thema.sh"
 
 # //
-wget -q -O /usr/bin/about "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/about.sh"
-wget -q -O /usr/bin/upsc "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/upsc.sh"
+wget -q -O /usr/bin/about "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/about.sh"
+wget -q -O /usr/bin/upsc "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/upsc.sh"
 #wget -q -O /usr/bin/menu-socks "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-socks.sh"
-wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-ss.sh"
-wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-vless.sh"
-wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-vmess.sh"
-wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-trojan.sh"
+wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-ss.sh"
+wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-vless.sh"
+wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-vmess.sh"
+wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-trojan.sh"
 #wget -q -O /usr/bin/menu-trgo "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-trgo.sh"
-wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-ssh.sh"
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-ssh.sh"
 #wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-bckp-telegram.sh"
 wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/menu-bckp-github.sh"
 #wget -q -O /usr/bin/bckp "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/bckpbot.sh"
-wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/usernew.sh"
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu.sh"
+wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/usernew.sh"
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu.sh"
 wget -q -O /usr/bin/wbm "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/webmin.sh"
 wget -q -O /usr/bin/changer "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/changer.sh"
-#wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/xp.sh"
-wget -q -O /usr/bin/addhost  "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/addhost.sh"
-wget -q -O /usr/bin/genssl  "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/genssl.sh"
-wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/cf.sh"
+#wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/arjunjms/isa/momok/xp.sh"
+wget -q -O /usr/bin/addhost  "https://raw.githubusercontent.com/arjunjms/isa/momok/addhost.sh"
+wget -q -O /usr/bin/genssl  "https://raw.githubusercontent.com/arjunjms/isa/momok/genssl.sh"
+wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/cf.sh"
 #wget -q -O /usr/bin/update "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/update.sh"
-wget -q -O /etc/cyber.site "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/cyber.site"
-wget -q -O /root/versi "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/versiupdate"
-wget -q -O /usr/bin/updatsc "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/update.sh"
-wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-backup.sh"
-wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/cf.sh"
-wget -q -O /usr/bin/setting "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Themes/setting.sh"
-wget -q -O /usr/bin/menu-ipsec "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/ipsec/menu-ipsec.sh"
-wget https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/SLDNS/wslow.sh
-wget https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/backup/set-br.sh
+wget -q -O /etc/cyber.site "https://raw.githubusercontent.com/arjunjms/isa/momok/cyber.site"
+wget -q -O /root/versi "https://raw.githubusercontent.com/arjunjms/isa/momok/versiupdate"
+wget -q -O /usr/bin/updatsc "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/update.sh"
+wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-backup.sh"
+wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/cf.sh"
+wget -q -O /usr/bin/setting "https://raw.githubusercontent.com/arjunjms/isa/momok/Themes/setting.sh"
+wget -q -O /usr/bin/menu-ipsec "https://raw.githubusercontent.com/arjunjms/isa/momok/ipsec/menu-ipsec.sh"
+wget https://raw.githubusercontent.com/arjunjms/isa/momok/SLDNS/wslow.sh
+wget https://raw.githubusercontent.com/arjunjms/isa/momok/backup/set-br.sh
 bash set-br.sh
-wget -q -O /usr/bin/thema "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Themes/thema.sh"
-wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/trial/trial.sh"
-wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/trial/trial.sh" && chmod +x /usr/bin/trial
-wget -q -O /usr/bin/trial-vmess "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/trial/trial-vmess.sh" && chmod +x /usr/bin/trial-vmess
-wget -q -O /usr/bin/trial-trojan "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/trial/trial-trojan.sh" && chmod +x /usr/bin/trial-trojan
-wget -q -O /usr/bin/trial-udp "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/trial/trial-udp.sh" && chmod +x /usr/bin/trial-udp
-wget -q -O /usr/bin/trial-vless "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/trial/trial-vless.sh" && chmod +x /usr/bin/trial-vless
-wget -q -O /usr/bin/menu-trial "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/trial/trial-generator.sh" && chmod +x /usr/bin/menu-trial
-wget https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/3d.flf
+wget -q -O /usr/bin/thema "https://raw.githubusercontent.com/arjunjms/isa/momok/Themes/thema.sh"
+wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/arjunjms/isa/momok/trial/trial.sh"
+wget -q -O /usr/bin/trial "https://raw.githubusercontent.com/arjunjms/isa/momok/trial/trial.sh" && chmod +x /usr/bin/trial
+wget -q -O /usr/bin/trial-vmess "https://raw.githubusercontent.com/arjunjms/isa/momok/trial/trial-vmess.sh" && chmod +x /usr/bin/trial-vmess
+wget -q -O /usr/bin/trial-trojan "https://raw.githubusercontent.com/arjunjms/isa/momok/trial/trial-trojan.sh" && chmod +x /usr/bin/trial-trojan
+wget -q -O /usr/bin/trial-udp "https://raw.githubusercontent.com/arjunjms/isa/momok/trial/trial-udp.sh" && chmod +x /usr/bin/trial-udp
+wget -q -O /usr/bin/trial-vless "https://raw.githubusercontent.com/arjunjms/isa/momok/trial/trial-vless.sh" && chmod +x /usr/bin/trial-vless
+wget -q -O /usr/bin/menu-trial "https://raw.githubusercontent.com/arjunjms/isa/momok/trial/trial-generator.sh" && chmod +x /usr/bin/menu-trial
+wget https://raw.githubusercontent.com/arjunjms/isa/momok/menu/3d.flf
 mv 3d.flf /usr/share/figlet/
 
 sudo apt-get install curl -y
@@ -87,45 +87,45 @@ git clone https://github.com/magnific0/wondershaper.git
 cd wondershaper
 sudo make install
 
-wget -q -O /usr/bin/addudp "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/addssh.sh"
-wget -q -O /usr/bin/menu-udp "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-udp.sh"
+wget -q -O /usr/bin/addudp "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/addssh.sh"
+wget -q -O /usr/bin/menu-udp "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-udp.sh"
 
 sudo apt install squid -y
 mkdir /var/lib/ssnvpn-pro/
 rm -f /usr/bin/menu-ssh
-wget -q -O /var/lib/ssnvpn-pro/ipvps.conf "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/ipvps.conf"
-wget -q -O /usr/bin/autokill "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/autokill.sh"
-wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-ssh.sh"
-wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/restart.sh"
+wget -q -O /var/lib/ssnvpn-pro/ipvps.conf "https://raw.githubusercontent.com/arjunjms/isa/momok/ipvps.conf"
+wget -q -O /usr/bin/autokill "https://raw.githubusercontent.com/arjunjms/isa/momok/limit/autokill.sh"
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-ssh.sh"
+wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/restart.sh"
 chmod +x /usr/bin/restart
-wget -q -O /usr/bin/bot "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Finaleuy/bot.sh"
-wget -q -O /root/chat "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/Finaleuy/chatid.sh"
+wget -q -O /usr/bin/bot "https://raw.githubusercontent.com/arjunjms/isa/momok/Finaleuy/bot.sh"
+wget -q -O /root/chat "https://raw.githubusercontent.com/arjunjms/isa/momok/Finaleuy/chatid.sh"
 
-wget -q -O /usr/bin/limitvmess "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/limitvmess.sh" && chmod +x /usr/bin/limitvmess
+wget -q -O /usr/bin/limitvmess "https://raw.githubusercontent.com/arjunjms/isa/momok/limit/limitvmess.sh" && chmod +x /usr/bin/limitvmess
 
-wget -q -O /usr/bin/limitvless "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/limitvless.sh" && chmod +x /usr/bin/limitvless
+wget -q -O /usr/bin/limitvless "https://raw.githubusercontent.com/arjunjms/isa/momok/limit/limitvless.sh" && chmod +x /usr/bin/limitvless
 
-wget -q -O /usr/bin/limittrojan "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/limittrojan.sh" && chmod +x /usr/bin/limittrojan
-wget -q -O /usr/bin/sistem "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/sistem.sh" && chmod +x /usr/bin/sistem
-wget -q -O /etc/crontab "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/crontab" && chmod 644 /etc/crontab
+wget -q -O /usr/bin/limittrojan "https://raw.githubusercontent.com/arjunjms/isa/momok/limit/limittrojan.sh" && chmod +x /usr/bin/limittrojan
+wget -q -O /usr/bin/sistem "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/sistem.sh" && chmod +x /usr/bin/sistem
+wget -q -O /etc/crontab "https://raw.githubusercontent.com/arjunjms/isa/momok/crontab" && chmod 644 /etc/crontab
 
-wget -q -O /usr/bin/cftn "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/cftn.sh" && chmod +x /usr/bin/cftn
+wget -q -O /usr/bin/cftn "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/cftn.sh" && chmod +x /usr/bin/cftn
 
-wget -q -O /usr/bin/infosc "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/info.sh" && chmod +x /usr/bin/infosc
+wget -q -O /usr/bin/infosc "https://raw.githubusercontent.com/arjunjms/isa/momok/limit/info.sh" && chmod +x /usr/bin/infosc
 echo "*/2 * * * * root sistem" >> /etc/crontab
 
 rm /etc/rsyslog.d/50-default.conf
 
-wget https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/50-default.conf
+wget https://raw.githubusercontent.com/arjunjms/isa/momok/50-default.conf
 
 
 cp 50-default.conf /etc/rsyslog.d/50-default.conf
 service rsyslog restart
 
-wget -q -O /etc/default/dropbear "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/dropbear" && chmod +x /etc/default/dropbear
+wget -q -O /etc/default/dropbear "https://raw.githubusercontent.com/arjunjms/isa/momok/dropbear" && chmod +x /etc/default/dropbear
 
 
-wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/xp.sh" && chmod +x /usr/bin/xp
+wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/xp.sh" && chmod +x /usr/bin/xp
 
 #SERVICE xp
 cat >/etc/systemd/system/xp.service << EOF
@@ -169,7 +169,7 @@ systemctl enable tendang
 systemctl restart tendang
 
 
-wget -q -O /usr/bin/limitipxray "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/limit/limitipxray.py" && chmod +x /usr/bin/limitipxray
+wget -q -O /usr/bin/limitipxray "https://raw.githubusercontent.com/arjunjms/isa/momok/limit/limitipxray.py" && chmod +x /usr/bin/limitipxray
 
 
 cat >/etc/systemd/system/iplimit.service << EOF
@@ -191,9 +191,9 @@ systemctl enable iplimit
 systemctl restart iplimit
 
 
-wget -q -O /usr/bin/menu-noobzvpns "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/menu-noobzvpns.sh" && chmod +x /usr/bin/menu-noobzvpns
+wget -q -O /usr/bin/menu-noobzvpns "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/menu-noobzvpns.sh" && chmod +x /usr/bin/menu-noobzvpns
 
-wget https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/noobzvpns.zip
+wget https://raw.githubusercontent.com/arjunjms/isa/momok/menu/noobzvpns.zip
 unzip noobzvpns.zip
 cd noobzvpns
 bash install.sh
@@ -206,7 +206,7 @@ systemctl restart noobzvpns
 touch /etc/trialxray.txt
 
 
-wget -q -O /usr/bin/service-trial "https://raw.githubusercontent.com/RifkyStoretuneling/stunnelvpn/momok/menu/service-trial.sh" && chmod +x /usr/bin/service-trial
+wget -q -O /usr/bin/service-trial "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/service-trial.sh" && chmod +x /usr/bin/service-trial
 
 
 cat >/etc/systemd/system/trial.service << EOF
