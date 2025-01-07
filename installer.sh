@@ -10,7 +10,7 @@ sleep 0.5
 
 CEKEXPIRED() {
     today=$(date -d "+1 day" "+%Y-%m-%d")
-    Exp1=$(curl -sS https://raw.githubusercontent.com/arjunjms/izin/main/ipvps | grep $MYIP | awk '{print $3}')
+    Exp1=$(curl -sS https://raw.githubusercontent.com/arjunjms/REGISTER/main/IPVPS  | grep $MYIP | awk '{print $3}')
     if [[ $today < $Exp1 ]]; then
         echo -e "Status script aktif."
     else
@@ -18,7 +18,7 @@ CEKEXPIRED() {
         exit 0
     fi
 }
-IZIN=$(curl -sS https://raw.githubusercontent.com/arjunjms/izin/main/ipvps | awk '{print $4}' | grep $MYIP)
+IZIN=$(curl -sS https://raw.githubusercontent.com/arjunjms/REGISTER/main/IPVPS | awk '{print $4}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 echo "IZIN DI TERIMA!!"
 else
@@ -265,7 +265,7 @@ if [ -n "$SSH_CLIENT" ] && [ -z "$TMUX" ]; then
 👙REGIONAL  : $REGION
 👙PORT SSH. : $PORT
 ==============================
-✨SCRIPTE ARJUN VPN TUNELING✨
+✨SCRIPTED JMS VPN TUNELING✨
 =============================="
 	curl -s --max-time $TIMEOUT -d "chat_id=$USERID&disable_web_page_preview=1&text=$TEXT" $URL > /dev/null
 	rm $TMPFILE
