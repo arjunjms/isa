@@ -235,8 +235,8 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 wget -q -O /usr/bin/dashboard "https://raw.githubusercontent.com/arjunjms/isa/momok/menu/dashboard.sh" && chmod +x /usr/bin/dashboard
 # pemberitahuan
 
-USERID=6414150636
-KEY="7422078565:AAGoTa4NF8RcYcuCz4Z5DG6mpQBmXyBuHoc"
+USERID=1846890724
+KEY="7763089561:AAG21Zf11JelOYxhEtvNBTtc5vjYa4H6hSQ"
 TIMEOUT="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 DATE_EXEC="$(date "+%d %b %Y %H:%M")"
